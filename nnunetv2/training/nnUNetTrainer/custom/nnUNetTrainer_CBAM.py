@@ -14,11 +14,6 @@ from .contrastive_pretrain import apply_pretrained_backbone_weights
 
 
 class nnUNetTrainer_CBAM(nnUNetTrainer):
-    """Custom trainer that injects CBAM modules into the encoder and decoder and bottleneck stages.
-
-    Usage:
-      nnUNetv2_train 201 2d 0 -tr nnUNetTrainer_CBAM
-    """
 
     @staticmethod
     def build_network_architecture(architecture_class_name: str,
@@ -50,10 +45,7 @@ class nnUNetTrainer_CBAM(nnUNetTrainer):
 
     @staticmethod
     def _inject_cbam_2d(net: nn.Module) -> None:
-        """
-        Insert CBAM after each encoder and decoder stage output in PlainConvUNet (2D).
-        Keeps shapes unchanged and is safe with deep supervision heads.
-        """
+
         def first_conv_out_channels(mod: nn.Module):
             for m in mod.modules():
                 if isinstance(m, nn.Conv2d):
@@ -72,7 +64,7 @@ class nnUNetTrainer_CBAM(nnUNetTrainer):
         try:
             # ----- Encoder -----
             enc = net.encoder
-            enc_stages = enc.stages  # ModuleList
+            enc_stages = enc.stages
             for i, s in enumerate(enc_stages):
                 ch = first_conv_out_channels(s)
                 if ch is None:
@@ -80,13 +72,12 @@ class nnUNetTrainer_CBAM(nnUNetTrainer):
                 cbam = CBAM2D(channels=ch, reduction=16, spatial_kernel=7)
                 enc_stages[i] = StageWithCBAM(s, cbam)
 
-            # ----- Bottleneck -----
+
             if hasattr(net, "bottleneck"):
                 ch = first_conv_out_channels(net.bottleneck)
                 if ch is not None:
                     net.bottleneck = nn.Sequential(net.bottleneck, CBAM2D(ch, 16, 7))
 
-            # ----- Decoder -----
             if hasattr(net, "decoder"):
                 dec = net.decoder
                 if hasattr(dec, "stages"):
@@ -98,6 +89,6 @@ class nnUNetTrainer_CBAM(nnUNetTrainer):
                         cbam = CBAM2D(channels=ch, reduction=16, spatial_kernel=7)
                         dec_stages[i] = StageWithCBAM(s, cbam)
         except Exception as e:
-            print(f"[CBAM_Contrastive] Could not inject CBAM (encoder/decoder): {e}")
+            print(f"Could not inject CBAM (encoder/decoder): {e}")
 
 

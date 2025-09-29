@@ -5,12 +5,11 @@ import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 
 
-# Configure dataset roots (relative to project root)
+
 RAW_ROOT = os.path.join("nnUNet_raw", "Dataset201_ATLAS2")
 IMG_DIR = os.path.join(RAW_ROOT, "imagesTr")
 LBL_DIR = os.path.join(RAW_ROOT, "labelsTr")
-
-# Fold-3 validation prediction folders for each model variant
+#fold 3 only
 PRED_DIRS = {
     "Plain": os.path.join(
         "nnUNet_results", "Dataset201_ATLAS2",
@@ -101,12 +100,12 @@ def render_overlay(case_id: str) -> str:
     os.makedirs(OUT_SUBDIR, exist_ok=True)
     out_png = os.path.join(OUT_SUBDIR, f"overlay_fold3_grid_{case_id}.png")
 
-    # Layout: top row (GT) spans 5 columns; bottom row shows 5 models
+    # top row (GT) spans 5 columns /bottom row shows 5 models
     variants = ["Plain", "CBAM", "CrissCross", "SE", "AG"]
     fig = plt.figure(figsize=(18, 6))
     gs = GridSpec(2, 5, figure=fig, height_ratios=[1, 1], hspace=0.15, wspace=0.05)
 
-    # Top row: GT spanning all columns
+    # top row GT spanning all columns
     ax_top = fig.add_subplot(gs[0, :])
     ax_top.imshow(base, cmap="gray", interpolation="nearest")
     if gt2d.any():
@@ -114,7 +113,7 @@ def render_overlay(case_id: str) -> str:
     ax_top.set_axis_off()
     ax_top.set_title(f"Ground Truth overlay — {case_id}", fontsize=13)
 
-    # Bottom row: predictions per variant
+    # bottm row predictions per variant
     for i, v in enumerate(variants):
         ax = fig.add_subplot(gs[1, i])
         ax.imshow(base, cmap="gray", interpolation="nearest")
@@ -147,7 +146,7 @@ def main():
         except Exception as e:
             print(f"[WARN] Skipped {case}: {e}")
     if not saved:
-        print("No overlays created. Ensure predictions for fold 3 exist for all models.")
+        print("No overlays created")
 
 
 if __name__ == "__main__":

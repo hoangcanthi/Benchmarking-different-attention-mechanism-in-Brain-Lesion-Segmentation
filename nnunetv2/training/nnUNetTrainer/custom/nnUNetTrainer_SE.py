@@ -11,9 +11,7 @@ from .se import SqueezeExcitation2D
 
 
 class nnUNetTrainer_SE(nnUNetTrainer):
-    """
-    Trainer that injects SE blocks after each encoder and decoder stage for 2D UNet.
-    """
+
 
     @staticmethod
     def build_network_architecture(
@@ -34,7 +32,6 @@ class nnUNetTrainer_SE(nnUNetTrainer):
             deep_supervision=enable_deep_supervision,
         )
 
-        # Only target 2D
         is_2d = any(m.__class__.__name__ == 'Conv2d' for m in net.modules())
         if not is_2d:
             return net
@@ -56,7 +53,6 @@ class nnUNetTrainer_SE(nnUNetTrainer):
                 return self.se(x)
 
         try:
-            # Encoder stages
             enc_stages = net.encoder.stages
             for i, s in enumerate(enc_stages):
                 ch = last_conv_out_channels(s)
@@ -64,13 +60,13 @@ class nnUNetTrainer_SE(nnUNetTrainer):
                     continue
                 enc_stages[i] = StageWithSE(s, SqueezeExcitation2D(ch, reduction=16))
 
-            # Bottleneck
+
             if hasattr(net, 'bottleneck'):
                 ch_bn = last_conv_out_channels(net.bottleneck)
                 if ch_bn is not None:
                     net.bottleneck = nn.Sequential(net.bottleneck, SqueezeExcitation2D(ch_bn, reduction=16))
 
-            # Decoder stages
+
             if hasattr(net, 'decoder') and hasattr(net.decoder, 'stages'):
                 dec_stages = net.decoder.stages
                 for i, s in enumerate(dec_stages):

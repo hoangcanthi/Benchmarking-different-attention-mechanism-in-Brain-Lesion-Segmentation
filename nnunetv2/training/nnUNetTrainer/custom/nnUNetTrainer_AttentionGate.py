@@ -12,13 +12,6 @@ from .ag import AttentionGate2D
 
 
 class nnUNetTrainer_AttentionGate(nnUNetTrainer):
-    """
-    Trainer that injects Attention Gates on skip connections of the 2D PlainConvUNet decoder.
-
-    Usage:
-      nnUNetv2_train 201 2d 0 -tr nnUNetTrainer_AttentionGate
-    """
-
     @staticmethod
     def build_network_architecture(
         architecture_class_name: str,
@@ -38,7 +31,7 @@ class nnUNetTrainer_AttentionGate(nnUNetTrainer):
             deep_supervision=enable_deep_supervision,
         )
 
-        # Only target 2D UNet
+
         is_2d = any(m.__class__.__name__ == 'Conv2d' for m in net.modules())
         if not is_2d:
             return net

@@ -30,10 +30,6 @@ class ChannelAttention2D(nn.Module):
 
 
 class SpatialAttention2D(nn.Module):
-    """
-    Spatial attention: concat of channel-wise avg & max -> 7x7 conv -> sigmoid.
-    Paper uses kernel_size=7 (bias=False). kernel_size=3 is the light variant.
-    """
     def __init__(self, kernel_size: int = 7):
         super().__init__()
         assert kernel_size in (3, 7)
@@ -50,10 +46,7 @@ class SpatialAttention2D(nn.Module):
 
 
 class CBAM2D(nn.Module):
-    """
-    CBAM block (2D): Channel Attention -> Spatial Attention.
-    Matches the original CBAM ordering and ops.
-    """
+
     def __init__(self, channels: int, reduction: int = 16, spatial_kernel: int = 7):
         super().__init__()
         self.ca = ChannelAttention2D(channels, reduction=reduction)

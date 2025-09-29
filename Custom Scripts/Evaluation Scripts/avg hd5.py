@@ -1,6 +1,3 @@
-# Drop-in script: set your file paths below and run this cell/script (no CLI needed).
-# It will create HD95 distribution plots (histogram + KDE, and boxplot) and save them to pngs/.
-
 import os
 import math
 from datetime import datetime
@@ -10,28 +7,24 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# 1) Point these to your CSVs (case, hd95_mm, note) — edit as needed
-FILES = {
+FILES = {                       #Path to summaries files
     "Plain": "hd95_plain_cv.csv",
     "CBAM": "hd95_cbam_cv.csv",
     "CrissCross": "hd95_cc_cv.csv",
     "SE": "hd95_se_cv.csv",
-    "AG": "hd95_ag_cv.csv",  # uncomment if you have it
+    "AG": "hd95_ag_cv.csv",
 }
 
-# 2) Output paths
+
 os.makedirs("pngs", exist_ok=True)
 ts = datetime.now().strftime("%Y%m%d_%H%M%S")
 OUT_HIST = f"pngs/hd95_distribution_hist_{ts}.png"
 OUT_BOX = f"pngs/hd95_distribution_box_{ts}.png"
 OUT_STATS = f"pngs/hd95_summary_stats_{ts}.csv"
 
-# 3) Load and combine
+
 frames = []
 for variant, path in FILES.items():
-    if not os.path.isfile(path):
-        print(f"[WARN] Missing file: {path} (skipping {variant})")
-        continue
     df = pd.read_csv(path)
     if "hd95_mm" not in df.columns:
         raise ValueError(f"{path} must contain column 'hd95_mm'")
@@ -46,7 +39,6 @@ if not frames:
 
 data = pd.concat(frames, ignore_index=True)
 
-# 4) Summary stats per variant
 def summarize(group):
     arr = group["hd95_mm"].astype(float).values
     return pd.Series({
@@ -65,7 +57,6 @@ stats.to_csv(OUT_STATS, index=False)
 print(f"[INFO] Saved summary stats: {OUT_STATS}")
 print(stats)
 
-# 5) Plot — histogram + KDE per variant (overlayed)
 sns.set(style="whitegrid", context="talk")
 plt.figure(figsize=(12, 7))
 for variant, df in data.groupby("variant"):

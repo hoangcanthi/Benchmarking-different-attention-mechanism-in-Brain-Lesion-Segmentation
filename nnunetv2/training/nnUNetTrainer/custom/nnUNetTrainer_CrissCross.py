@@ -12,11 +12,6 @@ from .crisscross_attention import CrissCrossAttentionBlock2D
 
 
 class nnUNetTrainer_CrissCross(nnUNetTrainer):
-    """Trainer that mirrors criss-cross (axial) attention in encoder and decoder (2D).
-
-    Usage:
-      nnUNetv2_train 201 2d 0 -tr nnUNetTrainer_CrissCross
-    """
 
     def __init__(self, plans: dict, configuration: str, fold: int, dataset_json: dict, device: torch.device = torch.device('cuda')):
         super().__init__(plans, configuration, fold, dataset_json, device)
@@ -40,7 +35,7 @@ class nnUNetTrainer_CrissCross(nnUNetTrainer):
             deep_supervision=enable_deep_supervision,
         )
 
-        # Only for 2D conv UNet
+
         is_2d = any(m.__class__.__name__ == 'Conv2d' for m in net.modules())
         if is_2d:
             nnUNetTrainer_CrissCross._inject_crisscross_2d(net)
@@ -49,7 +44,7 @@ class nnUNetTrainer_CrissCross(nnUNetTrainer):
     @staticmethod
     def _inject_crisscross_2d(net: nn.Module) -> None:
         try:
-            # Encoder: add attention after each stage (match CBAM placement)
+
             enc = net.encoder
             enc_stages = enc.stages
             enc_channels = []
@@ -76,7 +71,7 @@ class nnUNetTrainer_CrissCross(nnUNetTrainer):
                         return self.attn(x)
                 enc_stages[i] = StageWithAttn(original, attn)
 
-            # Bottleneck: insert attention after bottleneck block if present
+
             if hasattr(net, "bottleneck"):
                 first_conv = None
                 for m in net.bottleneck.modules():
@@ -93,7 +88,7 @@ class nnUNetTrainer_CrissCross(nnUNetTrainer):
                     )
                     net.bottleneck = nn.Sequential(net.bottleneck, attn_bn)
 
-            # Decoder: insert attention after each decoder stage stack (match CBAM placement)
+
             dec = net.decoder
             dec_stages = dec.stages  # list of StackedConvBlocks
             dec_channels = []

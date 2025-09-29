@@ -9,12 +9,6 @@ import torch.nn.functional as F
 
 
 class AxialAttention2D(nn.Module):
-    """Axial (row/column) self-attention block for 2D feature maps.
-
-    This approximates criss-cross attention by sequentially applying attention
-    along height then width. It is lightweight and VRAM-friendly compared to
-    full 2D non-local attention.
-    """
 
     def __init__(
         self,
@@ -37,14 +31,10 @@ class AxialAttention2D(nn.Module):
         self.to_k = nn.Conv2d(in_channels, c_attn, kernel_size=1, bias=False)
         self.to_v = nn.Conv2d(in_channels, c_attn, kernel_size=1, bias=False)
         self.proj = nn.Conv2d(c_attn, in_channels, kernel_size=1, bias=False)
-
-        # Swap BN -> GN per request
         self.norm = nn.GroupNorm(32, in_channels)
-        # Residual scaling (LayerScale-lite)
         self.gamma = nn.Parameter(torch.zeros(1))
 
     def _attend_height(self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor) -> torch.Tensor:
-        # x: (B, C, H, W) -> treat each column independently
         B, C, H, W = q.shape
         # reshape to (B*W, heads, H, c_head)
         def prep(t):
@@ -97,7 +87,6 @@ class AxialAttention2D(nn.Module):
 
 
 class CrissCrossAttentionBlock2D(nn.Module):
-    """Wrapper block: axial attention + optional conv refinement."""
 
     def __init__(self, channels: int, attn_channels: int | None = None, heads: int = 1, dropout: float = 0.0):
         super().__init__()

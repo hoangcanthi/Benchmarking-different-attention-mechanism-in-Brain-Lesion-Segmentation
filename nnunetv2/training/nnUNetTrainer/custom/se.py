@@ -4,12 +4,6 @@ from torch import nn
 
 
 class SqueezeExcitation2D(nn.Module):
-    """
-    Classic Squeeze-and-Excitation (SE) block for 2D feature maps.
-
-    Applies channel-wise attention via global average pooling followed by
-    a small MLP (implemented with 1x1 convolutions).
-    """
 
     def __init__(self, channels: int, reduction: int = 16) -> None:
         super().__init__()
