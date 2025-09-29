@@ -1,0 +1,2122 @@
+{
+    "foreground_mean": {
+        "Dice": 0.5417470903611661,
+        "FN": 7427.076335877862,
+        "FP": 6853.465648854962,
+        "IoU": 0.42126552172515624,
+        "TN": 8632408.854961833,
+        "TP": 28599.603053435116,
+        "n_pred": 35453.068702290075,
+        "n_ref": 36026.67938931298
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.5417470903611661,
+            "FN": 7427.076335877862,
+            "FP": 6853.465648854962,
+            "IoU": 0.42126552172515624,
+            "TN": 8632408.854961833,
+            "TP": 28599.603053435116,
+            "n_pred": 35453.068702290075,
+            "n_ref": 36026.67938931298
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.1769768692845616,
+                    "FN": 2680,
+                    "FP": 380,
+                    "IoU": 0.09707878430215403,
+                    "TN": 8671900,
+                    "TP": 329,
+                    "n_pred": 709,
+                    "n_ref": 3009
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r001s006.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r001s006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5138539042821159,
+                    "FN": 20,
+                    "FP": 1910,
+                    "IoU": 0.34576271186440677,
+                    "TN": 8672339,
+                    "TP": 1020,
+                    "n_pred": 2930,
+                    "n_ref": 1040
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r001s024.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r001s024.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6937075202806402,
+                    "FN": 2242,
+                    "FP": 1949,
+                    "IoU": 0.531050688150386,
+                    "TN": 8666352,
+                    "TP": 4746,
+                    "n_pred": 6695,
+                    "n_ref": 6988
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r001s030.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r001s030.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8523585638245302,
+                    "FN": 3046,
+                    "FP": 7411,
+                    "IoU": 0.7427045913094829,
+                    "TN": 8634647,
+                    "TP": 30185,
+                    "n_pred": 37596,
+                    "n_ref": 33231
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r001s033.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r001s033.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7167126956230647,
+                    "FN": 2493,
+                    "FP": 892,
+                    "IoU": 0.5584974566323203,
+                    "TN": 8667622,
+                    "TP": 4282,
+                    "n_pred": 5174,
+                    "n_ref": 6775
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r001s036.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r001s036.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.03671189146049481,
+                    "FN": 134,
+                    "FP": 3487,
+                    "IoU": 0.01869918699186992,
+                    "TN": 8671599,
+                    "TP": 69,
+                    "n_pred": 3556,
+                    "n_ref": 203
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r001s038.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r001s038.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7162215443358443,
+                    "FN": 11920,
+                    "FP": 1755,
+                    "IoU": 0.5579012026380448,
+                    "TN": 8644357,
+                    "TP": 17257,
+                    "n_pred": 19012,
+                    "n_ref": 29177
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r002s006.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r002s006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8682508356244082,
+                    "FN": 5924,
+                    "FP": 5625,
+                    "IoU": 0.7671760341907911,
+                    "TN": 8625685,
+                    "TP": 38055,
+                    "n_pred": 43680,
+                    "n_ref": 43979
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r003s009.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r003s009.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4074844074844075,
+                    "FN": 164,
+                    "FP": 406,
+                    "IoU": 0.2558746736292428,
+                    "TN": 8674523,
+                    "TP": 196,
+                    "n_pred": 602,
+                    "n_ref": 360
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r003s010.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r003s010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8160135905402687,
+                    "FN": 4042,
+                    "FP": 4189,
+                    "IoU": 0.6892085787645371,
+                    "TN": 8648805,
+                    "TP": 18253,
+                    "n_pred": 22442,
+                    "n_ref": 22295
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r003s014.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r003s014.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.32335544004301847,
+                    "FN": 368,
+                    "FP": 14732,
+                    "IoU": 0.19285867008766303,
+                    "TN": 8656581,
+                    "TP": 3608,
+                    "n_pred": 18340,
+                    "n_ref": 3976
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r004s005.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r004s005.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.34978991596638653,
+                    "FN": 241,
+                    "FP": 5949,
+                    "IoU": 0.21196690006365373,
+                    "TN": 8667434,
+                    "TP": 1665,
+                    "n_pred": 7614,
+                    "n_ref": 1906
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r004s008.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r004s008.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6066253437872009,
+                    "FN": 878,
+                    "FP": 18288,
+                    "IoU": 0.43536412915390055,
+                    "TN": 8641345,
+                    "TP": 14778,
+                    "n_pred": 33066,
+                    "n_ref": 15656
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r004s012.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r004s012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8587525304610214,
+                    "FN": 7035,
+                    "FP": 15153,
+                    "IoU": 0.7524682887646842,
+                    "TN": 8585652,
+                    "TP": 67449,
+                    "n_pred": 82602,
+                    "n_ref": 74484
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r004s013.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r004s013.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8439091021979387,
+                    "FN": 2388,
+                    "FP": 1383,
+                    "IoU": 0.7299677765843179,
+                    "TN": 8661324,
+                    "TP": 10194,
+                    "n_pred": 11577,
+                    "n_ref": 12582
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r004s014.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r004s014.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7540781039498186,
+                    "FN": 3157,
+                    "FP": 25502,
+                    "IoU": 0.6052370588721452,
+                    "TN": 8602691,
+                    "TP": 43939,
+                    "n_pred": 69441,
+                    "n_ref": 47096
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r004s017.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r004s017.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7876336927373956,
+                    "FN": 9075,
+                    "FP": 25216,
+                    "IoU": 0.6496664316874572,
+                    "TN": 8577408,
+                    "TP": 63590,
+                    "n_pred": 88806,
+                    "n_ref": 72665
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r004s019.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r004s019.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9044561103650348,
+                    "FN": 3787,
+                    "FP": 7952,
+                    "IoU": 0.8255772488187573,
+                    "TN": 8607987,
+                    "TP": 55563,
+                    "n_pred": 63515,
+                    "n_ref": 59350
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r004s022.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r004s022.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8761171505769874,
+                    "FN": 21248,
+                    "FP": 6170,
+                    "IoU": 0.7795449063278925,
+                    "TN": 8550919,
+                    "TP": 96952,
+                    "n_pred": 103122,
+                    "n_ref": 118200
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r004s027.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r004s027.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8079121723266012,
+                    "FN": 16053,
+                    "FP": 13954,
+                    "IoU": 0.677728732373189,
+                    "TN": 8582178,
+                    "TP": 63104,
+                    "n_pred": 77058,
+                    "n_ref": 79157
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r004s028.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r004s028.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.882445007256481,
+                    "FN": 12949,
+                    "FP": 24230,
+                    "IoU": 0.7896211040945202,
+                    "TN": 8498565,
+                    "TP": 139545,
+                    "n_pred": 163775,
+                    "n_ref": 152494
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r004s030.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r004s030.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8922819537030822,
+                    "FN": 8080,
+                    "FP": 12781,
+                    "IoU": 0.8055136022076784,
+                    "TN": 8568027,
+                    "TP": 86401,
+                    "n_pred": 99182,
+                    "n_ref": 94481
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r004s032.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r004s032.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.49677881173944166,
+                    "FN": 14,
+                    "FP": 689,
+                    "IoU": 0.3304761904761905,
+                    "TN": 8674239,
+                    "TP": 347,
+                    "n_pred": 1036,
+                    "n_ref": 361
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r005s045.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r005s045.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.3416666666666667,
+                    "FN": 89,
+                    "FP": 385,
+                    "IoU": 0.20603015075376885,
+                    "TN": 8674692,
+                    "TP": 123,
+                    "n_pred": 508,
+                    "n_ref": 212
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r005s048.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r005s048.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7992255744808353,
+                    "FN": 2745,
+                    "FP": 5966,
+                    "IoU": 0.6655917693577489,
+                    "TN": 8649240,
+                    "TP": 17338,
+                    "n_pred": 23304,
+                    "n_ref": 20083
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r005s049.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r005s049.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6599024697184206,
+                    "FN": 3733,
+                    "FP": 17887,
+                    "IoU": 0.492428688813241,
+                    "TN": 8632694,
+                    "TP": 20975,
+                    "n_pred": 38862,
+                    "n_ref": 24708
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r005s075.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r005s075.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.24040276903713026,
+                    "FN": 873,
+                    "FP": 334,
+                    "IoU": 0.13662374821173104,
+                    "TN": 8673891,
+                    "TP": 191,
+                    "n_pred": 525,
+                    "n_ref": 1064
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r005s077.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r005s077.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7315508021390374,
+                    "FN": 117,
+                    "FP": 134,
+                    "IoU": 0.5767284991568297,
+                    "TN": 8674696,
+                    "TP": 342,
+                    "n_pred": 476,
+                    "n_ref": 459
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s002.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s002.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.456980056980057,
+                    "FN": 526,
+                    "FP": 427,
+                    "IoU": 0.2961595273264402,
+                    "TN": 8673935,
+                    "TP": 401,
+                    "n_pred": 828,
+                    "n_ref": 927
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s005.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s005.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.2601184380426555,
+                    "FN": 2616,
+                    "FP": 14001,
+                    "IoU": 0.14950353157948612,
+                    "TN": 8655751,
+                    "TP": 2921,
+                    "n_pred": 16922,
+                    "n_ref": 5537
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s006.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.782709031292323,
+                    "FN": 8376,
+                    "FP": 40398,
+                    "IoU": 0.6429925559402426,
+                    "TN": 8538670,
+                    "TP": 87845,
+                    "n_pred": 128243,
+                    "n_ref": 96221
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s007.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 1875,
+                    "FP": 288,
+                    "IoU": 0.0,
+                    "TN": 8673126,
+                    "TP": 0,
+                    "n_pred": 288,
+                    "n_ref": 1875
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s010.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 43,
+                    "FP": 508,
+                    "IoU": 0.0,
+                    "TN": 8674738,
+                    "TP": 0,
+                    "n_pred": 508,
+                    "n_ref": 43
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s026.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s026.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.3543461571270153,
+                    "FN": 7359,
+                    "FP": 210,
+                    "IoU": 0.21532241343562097,
+                    "TN": 8665643,
+                    "TP": 2077,
+                    "n_pred": 2287,
+                    "n_ref": 9436
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s029.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s029.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 23,
+                    "FP": 160,
+                    "IoU": 0.0,
+                    "TN": 8675106,
+                    "TP": 0,
+                    "n_pred": 160,
+                    "n_ref": 23
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s039.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s039.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6956135770234987,
+                    "FN": 4103,
+                    "FP": 7555,
+                    "IoU": 0.5332879618879859,
+                    "TN": 8650310,
+                    "TP": 13321,
+                    "n_pred": 20876,
+                    "n_ref": 17424
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s052.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s052.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.360313315926893,
+                    "FN": 1067,
+                    "FP": 648,
+                    "IoU": 0.2197452229299363,
+                    "TN": 8673091,
+                    "TP": 483,
+                    "n_pred": 1131,
+                    "n_ref": 1550
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s053.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s053.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 815,
+                    "FP": 108,
+                    "IoU": 0.0,
+                    "TN": 8674366,
+                    "TP": 0,
+                    "n_pred": 108,
+                    "n_ref": 815
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s058.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s058.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4233660521905674,
+                    "FN": 7755,
+                    "FP": 4288,
+                    "IoU": 0.26852526724975706,
+                    "TN": 8658825,
+                    "TP": 4421,
+                    "n_pred": 8709,
+                    "n_ref": 12176
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s063.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s063.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.36015325670498083,
+                    "FN": 84,
+                    "FP": 250,
+                    "IoU": 0.21962616822429906,
+                    "TN": 8674861,
+                    "TP": 94,
+                    "n_pred": 344,
+                    "n_ref": 178
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s075.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s075.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 205,
+                    "FP": 198,
+                    "IoU": 0.0,
+                    "TN": 8674886,
+                    "TP": 0,
+                    "n_pred": 198,
+                    "n_ref": 205
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s100.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s100.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 180,
+                    "FP": 150,
+                    "IoU": 0.0,
+                    "TN": 8674959,
+                    "TP": 0,
+                    "n_pred": 150,
+                    "n_ref": 180
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s106.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s106.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8570571971084979,
+                    "FN": 6768,
+                    "FP": 10396,
+                    "IoU": 0.7498688429029438,
+                    "TN": 8606669,
+                    "TP": 51456,
+                    "n_pred": 61852,
+                    "n_ref": 58224
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s108.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s108.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.14864864864864866,
+                    "FN": 747,
+                    "FP": 261,
+                    "IoU": 0.08029197080291971,
+                    "TN": 8674193,
+                    "TP": 88,
+                    "n_pred": 349,
+                    "n_ref": 835
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s120.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s120.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.47625797306874557,
+                    "FN": 614,
+                    "FP": 125,
+                    "IoU": 0.3125581395348837,
+                    "TN": 8674214,
+                    "TP": 336,
+                    "n_pred": 461,
+                    "n_ref": 950
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s121.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s121.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 73,
+                    "FP": 53,
+                    "IoU": 0.0,
+                    "TN": 8675163,
+                    "TP": 0,
+                    "n_pred": 53,
+                    "n_ref": 73
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s122.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s122.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.255566875272886,
+                    "FN": 4369,
+                    "FP": 746,
+                    "IoU": 0.1465042549641248,
+                    "TN": 8669296,
+                    "TP": 878,
+                    "n_pred": 1624,
+                    "n_ref": 5247
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s123.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s123.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.04192177483252899,
+                    "FN": 1107,
+                    "FP": 12194,
+                    "IoU": 0.02140965273690406,
+                    "TN": 8661697,
+                    "TP": 291,
+                    "n_pred": 12485,
+                    "n_ref": 1398
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r009s124.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r009s124.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5468164794007491,
+                    "FN": 838,
+                    "FP": 493,
+                    "IoU": 0.37628865979381443,
+                    "TN": 8673155,
+                    "TP": 803,
+                    "n_pred": 1296,
+                    "n_ref": 1641
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r010s001.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r010s001.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7952319489788171,
+                    "FN": 1725,
+                    "FP": 972,
+                    "IoU": 0.6600705823040081,
+                    "TN": 8667355,
+                    "TP": 5237,
+                    "n_pred": 6209,
+                    "n_ref": 6962
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r010s002.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r010s002.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6412985630654604,
+                    "FN": 820,
+                    "FP": 528,
+                    "IoU": 0.4719937328632981,
+                    "TN": 8672736,
+                    "TP": 1205,
+                    "n_pred": 1733,
+                    "n_ref": 2025
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r010s006.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r010s006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4198210598761184,
+                    "FN": 534,
+                    "FP": 309,
+                    "IoU": 0.2656794425087108,
+                    "TN": 8674141,
+                    "TP": 305,
+                    "n_pred": 614,
+                    "n_ref": 839
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r010s012.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r010s012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4953670705630791,
+                    "FN": 954,
+                    "FP": 462,
+                    "IoU": 0.3292278540975841,
+                    "TN": 8673178,
+                    "TP": 695,
+                    "n_pred": 1157,
+                    "n_ref": 1649
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r010s016.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r010s016.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.694327731092437,
+                    "FN": 223,
+                    "FP": 359,
+                    "IoU": 0.5317779565567177,
+                    "TN": 8674046,
+                    "TP": 661,
+                    "n_pred": 1020,
+                    "n_ref": 884
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r010s024.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r010s024.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.3269447576099211,
+                    "FN": 17,
+                    "FP": 1177,
+                    "IoU": 0.1954177897574124,
+                    "TN": 8673805,
+                    "TP": 290,
+                    "n_pred": 1467,
+                    "n_ref": 307
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r011s003.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r011s003.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8146653212243525,
+                    "FN": 1292,
+                    "FP": 361,
+                    "IoU": 0.6872871736662883,
+                    "TN": 8670003,
+                    "TP": 3633,
+                    "n_pred": 3994,
+                    "n_ref": 4925
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r011s010.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r011s010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6546667837386952,
+                    "FN": 3083,
+                    "FP": 850,
+                    "IoU": 0.48662054562067614,
+                    "TN": 8667628,
+                    "TP": 3728,
+                    "n_pred": 4578,
+                    "n_ref": 6811
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r011s012.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r011s012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.2268041237113402,
+                    "FN": 57,
+                    "FP": 18,
+                    "IoU": 0.12790697674418605,
+                    "TN": 8675203,
+                    "TP": 11,
+                    "n_pred": 29,
+                    "n_ref": 68
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r011s013.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r011s013.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4044795783926219,
+                    "FN": 773,
+                    "FP": 131,
+                    "IoU": 0.2535094962840628,
+                    "TN": 8674078,
+                    "TP": 307,
+                    "n_pred": 438,
+                    "n_ref": 1080
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r011s016.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r011s016.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6344956413449564,
+                    "FN": 1016,
+                    "FP": 158,
+                    "IoU": 0.46466028271773824,
+                    "TN": 8673096,
+                    "TP": 1019,
+                    "n_pred": 1177,
+                    "n_ref": 2035
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r011s018.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r011s018.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7908745247148289,
+                    "FN": 17,
+                    "FP": 93,
+                    "IoU": 0.6540880503144654,
+                    "TN": 8674971,
+                    "TP": 208,
+                    "n_pred": 301,
+                    "n_ref": 225
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r011s028.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r011s028.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5851619644723093,
+                    "FN": 660,
+                    "FP": 134,
+                    "IoU": 0.413589364844904,
+                    "TN": 8673935,
+                    "TP": 560,
+                    "n_pred": 694,
+                    "n_ref": 1220
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r011s034.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r011s034.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 221,
+                    "FP": 210,
+                    "IoU": 0.0,
+                    "TN": 8674858,
+                    "TP": 0,
+                    "n_pred": 210,
+                    "n_ref": 221
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r014s004.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r014s004.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.013440860215053764,
+                    "FN": 204,
+                    "FP": 530,
+                    "IoU": 0.006765899864682003,
+                    "TN": 8674550,
+                    "TP": 5,
+                    "n_pred": 535,
+                    "n_ref": 209
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r014s008.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r014s008.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7490915492072274,
+                    "FN": 6086,
+                    "FP": 13869,
+                    "IoU": 0.5988380274611503,
+                    "TN": 8625546,
+                    "TP": 29788,
+                    "n_pred": 43657,
+                    "n_ref": 35874
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r015s008.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r015s008.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.2659937252762243,
+                    "FN": 40,
+                    "FP": 5341,
+                    "IoU": 0.15339836375078666,
+                    "TN": 8668933,
+                    "TP": 975,
+                    "n_pred": 6316,
+                    "n_ref": 1015
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r015s009.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r015s009.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8784035583338342,
+                    "FN": 12079,
+                    "FP": 8151,
+                    "IoU": 0.7831725616291533,
+                    "TN": 8581989,
+                    "TP": 73070,
+                    "n_pred": 81221,
+                    "n_ref": 85149
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r015s016.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r015s016.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.378997236478484,
+                    "FN": 3885,
+                    "FP": 834,
+                    "IoU": 0.23380418899171942,
+                    "TN": 8669130,
+                    "TP": 1440,
+                    "n_pred": 2274,
+                    "n_ref": 5325
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r015s026.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r015s026.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5035016859969615,
+                    "FN": 4024,
+                    "FP": 36173,
+                    "IoU": 0.33645322636557223,
+                    "TN": 8614710,
+                    "TP": 20382,
+                    "n_pred": 56555,
+                    "n_ref": 24406
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r015s027.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r015s027.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8181310052966384,
+                    "FN": 6280,
+                    "FP": 14219,
+                    "IoU": 0.6922349337897487,
+                    "TN": 8608683,
+                    "TP": 46107,
+                    "n_pred": 60326,
+                    "n_ref": 52387
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r017s116.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r017s116.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.33533619456366237,
+                    "FN": 107,
+                    "FP": 2216,
+                    "IoU": 0.20144379511859745,
+                    "TN": 8672380,
+                    "TP": 586,
+                    "n_pred": 2802,
+                    "n_ref": 693
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r017s118.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r017s118.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7003945814169745,
+                    "FN": 38415,
+                    "FP": 21190,
+                    "IoU": 0.5389286404950686,
+                    "TN": 8546014,
+                    "TP": 69670,
+                    "n_pred": 90860,
+                    "n_ref": 108085
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r018s011.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r018s011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7074537951994697,
+                    "FN": 11919,
+                    "FP": 60466,
+                    "IoU": 0.5473334667433775,
+                    "TN": 8515381,
+                    "TP": 87523,
+                    "n_pred": 147989,
+                    "n_ref": 99442
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r019s004.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r019s004.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7556559604492028,
+                    "FN": 4622,
+                    "FP": 2841,
+                    "IoU": 0.6072725359153818,
+                    "TN": 8656286,
+                    "TP": 11540,
+                    "n_pred": 14381,
+                    "n_ref": 16162
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r019s009.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r019s009.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5803987967649549,
+                    "FN": 17670,
+                    "FP": 5625,
+                    "IoU": 0.4088463685733137,
+                    "TN": 8635883,
+                    "TP": 16111,
+                    "n_pred": 21736,
+                    "n_ref": 33781
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r024s003.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r024s003.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.2777394900068918,
+                    "FN": 125,
+                    "FP": 1971,
+                    "IoU": 0.16126450580232093,
+                    "TN": 8672790,
+                    "TP": 403,
+                    "n_pred": 2374,
+                    "n_ref": 528
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r024s012.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r024s012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7791224123693727,
+                    "FN": 5457,
+                    "FP": 2300,
+                    "IoU": 0.6381658736822465,
+                    "TN": 8653851,
+                    "TP": 13681,
+                    "n_pred": 15981,
+                    "n_ref": 19138
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r024s018.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r024s018.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.427536231884058,
+                    "FN": 54,
+                    "FP": 1526,
+                    "IoU": 0.271889400921659,
+                    "TN": 8673119,
+                    "TP": 590,
+                    "n_pred": 2116,
+                    "n_ref": 644
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r027s006.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r027s006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.15305820939623757,
+                    "FN": 2006,
+                    "FP": 6593,
+                    "IoU": 0.08287116040955632,
+                    "TN": 8665913,
+                    "TP": 777,
+                    "n_pred": 7370,
+                    "n_ref": 2783
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r027s041.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r027s041.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6927275271726454,
+                    "FN": 4725,
+                    "FP": 1862,
+                    "IoU": 0.5299029403368541,
+                    "TN": 8661277,
+                    "TP": 7425,
+                    "n_pred": 9287,
+                    "n_ref": 12150
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r027s050.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r027s050.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.38466413181242076,
+                    "FN": 1257,
+                    "FP": 4569,
+                    "IoU": 0.23813260102000786,
+                    "TN": 8667642,
+                    "TP": 1821,
+                    "n_pred": 6390,
+                    "n_ref": 3078
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r028s017.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r028s017.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.38123616550315,
+                    "FN": 2007,
+                    "FP": 5261,
+                    "IoU": 0.2355106763437467,
+                    "TN": 8665782,
+                    "TP": 2239,
+                    "n_pred": 7500,
+                    "n_ref": 4246
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r028s026.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r028s026.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7163917842163293,
+                    "FN": 18943,
+                    "FP": 6008,
+                    "IoU": 0.5581078209124398,
+                    "TN": 8618825,
+                    "TP": 31513,
+                    "n_pred": 37521,
+                    "n_ref": 50456
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r029s007.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r029s007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7538241503779881,
+                    "FN": 8864,
+                    "FP": 9209,
+                    "IoU": 0.6049099335431969,
+                    "TN": 8629545,
+                    "TP": 27671,
+                    "n_pred": 36880,
+                    "n_ref": 36535
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r031s006.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r031s006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.24406299053116615,
+                    "FN": 42435,
+                    "FP": 2352,
+                    "IoU": 0.13899302151219795,
+                    "TN": 8623272,
+                    "TP": 7230,
+                    "n_pred": 9582,
+                    "n_ref": 49665
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r031s011.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r031s011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8937960276723945,
+                    "FN": 21750,
+                    "FP": 25840,
+                    "IoU": 0.8079848292279449,
+                    "TN": 8427444,
+                    "TP": 200255,
+                    "n_pred": 226095,
+                    "n_ref": 222005
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r031s013.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r031s013.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8635477582846004,
+                    "FN": 297,
+                    "FP": 403,
+                    "IoU": 0.7598627787307033,
+                    "TN": 8672374,
+                    "TP": 2215,
+                    "n_pred": 2618,
+                    "n_ref": 2512
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r031s016.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r031s016.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.3105084745762712,
+                    "FN": 231,
+                    "FP": 1803,
+                    "IoU": 0.18378812199036917,
+                    "TN": 8672797,
+                    "TP": 458,
+                    "n_pred": 2261,
+                    "n_ref": 689
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r031s017.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r031s017.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9180866618701696,
+                    "FN": 14398,
+                    "FP": 20896,
+                    "IoU": 0.8485768956847805,
+                    "TN": 8442207,
+                    "TP": 197788,
+                    "n_pred": 218684,
+                    "n_ref": 212186
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r031s022.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r031s022.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7025970399329796,
+                    "FN": 25,
+                    "FP": 1040,
+                    "IoU": 0.5415411106328024,
+                    "TN": 8672966,
+                    "TP": 1258,
+                    "n_pred": 2298,
+                    "n_ref": 1283
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r031s026.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r031s026.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7757768657341486,
+                    "FN": 1350,
+                    "FP": 1327,
+                    "IoU": 0.6336891078270389,
+                    "TN": 8667981,
+                    "TP": 4631,
+                    "n_pred": 5958,
+                    "n_ref": 5981
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r031s029.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r031s029.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7857477511244377,
+                    "FN": 11344,
+                    "FP": 6948,
+                    "IoU": 0.6471042173091022,
+                    "TN": 8623455,
+                    "TP": 33542,
+                    "n_pred": 40490,
+                    "n_ref": 44886
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r031s033.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r031s033.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.885154789842751,
+                    "FN": 21570,
+                    "FP": 11120,
+                    "IoU": 0.7939710210692835,
+                    "TN": 8516622,
+                    "TP": 125977,
+                    "n_pred": 137097,
+                    "n_ref": 147547
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r031s034.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r031s034.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.273972602739726,
+                    "FN": 45,
+                    "FP": 962,
+                    "IoU": 0.15873015873015872,
+                    "TN": 8674092,
+                    "TP": 190,
+                    "n_pred": 1152,
+                    "n_ref": 235
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r034s010.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r034s010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7357948264426266,
+                    "FN": 2217,
+                    "FP": 1368,
+                    "IoU": 0.5820216859041623,
+                    "TN": 8666712,
+                    "TP": 4992,
+                    "n_pred": 6360,
+                    "n_ref": 7209
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r034s011.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r034s011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5212395824904927,
+                    "FN": 4937,
+                    "FP": 980,
+                    "IoU": 0.3524841321952287,
+                    "TN": 8666151,
+                    "TP": 3221,
+                    "n_pred": 4201,
+                    "n_ref": 8158
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r034s021.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r034s021.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6561679790026247,
+                    "FN": 159,
+                    "FP": 889,
+                    "IoU": 0.48828125,
+                    "TN": 8673241,
+                    "TP": 1000,
+                    "n_pred": 1889,
+                    "n_ref": 1159
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r035s005.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r035s005.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.46604975363538037,
+                    "FN": 3909,
+                    "FP": 534,
+                    "IoU": 0.3038232528987778,
+                    "TN": 8668907,
+                    "TP": 1939,
+                    "n_pred": 2473,
+                    "n_ref": 5848
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r035s007.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r035s007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 483,
+                    "FP": 106,
+                    "IoU": 0.0,
+                    "TN": 8674700,
+                    "TP": 0,
+                    "n_pred": 106,
+                    "n_ref": 483
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r038s007.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r038s007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8215910133567524,
+                    "FN": 11447,
+                    "FP": 2164,
+                    "IoU": 0.69720362172143,
+                    "TN": 8630338,
+                    "TP": 31340,
+                    "n_pred": 33504,
+                    "n_ref": 42787
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r038s022.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r038s022.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6315363307053058,
+                    "FN": 14539,
+                    "FP": 2753,
+                    "IoU": 0.46149294634237487,
+                    "TN": 8643178,
+                    "TP": 14819,
+                    "n_pred": 17572,
+                    "n_ref": 29358
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r038s025.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r038s025.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.2514112393630466,
+                    "FN": 6593,
+                    "FP": 2292,
+                    "IoU": 0.14377951238315506,
+                    "TN": 8664912,
+                    "TP": 1492,
+                    "n_pred": 3784,
+                    "n_ref": 8085
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r038s054.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r038s054.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.688620258441017,
+                    "FN": 846,
+                    "FP": 648,
+                    "IoU": 0.5251112523839797,
+                    "TN": 8672143,
+                    "TP": 1652,
+                    "n_pred": 2300,
+                    "n_ref": 2498
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r038s069.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r038s069.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8602484653212179,
+                    "FN": 64521,
+                    "FP": 7350,
+                    "IoU": 0.7547684202624593,
+                    "TN": 8382215,
+                    "TP": 221203,
+                    "n_pred": 228553,
+                    "n_ref": 285724
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r038s078.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r038s078.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 897,
+                    "FP": 2135,
+                    "IoU": 0.0,
+                    "TN": 8672257,
+                    "TP": 0,
+                    "n_pred": 2135,
+                    "n_ref": 897
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r038s093.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r038s093.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5679522497704316,
+                    "FN": 180,
+                    "FP": 1702,
+                    "IoU": 0.3966014748316768,
+                    "TN": 8672170,
+                    "TP": 1237,
+                    "n_pred": 2939,
+                    "n_ref": 1417
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r040s001.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r040s001.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8226100320418333,
+                    "FN": 67950,
+                    "FP": 5460,
+                    "IoU": 0.6986725336792243,
+                    "TN": 8431667,
+                    "TP": 170212,
+                    "n_pred": 175672,
+                    "n_ref": 238162
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r040s031.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r040s031.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8051767720598213,
+                    "FN": 118813,
+                    "FP": 4657,
+                    "IoU": 0.6738877795738117,
+                    "TN": 8296677,
+                    "TP": 255142,
+                    "n_pred": 259799,
+                    "n_ref": 373955
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r040s037.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r040s037.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.861901159756803,
+                    "FN": 62254,
+                    "FP": 6024,
+                    "IoU": 0.7573166137069658,
+                    "TN": 8393943,
+                    "TP": 213068,
+                    "n_pred": 219092,
+                    "n_ref": 275322
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r040s044.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r040s044.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.21496598639455783,
+                    "FN": 111,
+                    "FP": 466,
+                    "IoU": 0.12042682926829268,
+                    "TN": 8674633,
+                    "TP": 79,
+                    "n_pred": 545,
+                    "n_ref": 190
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r040s051.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r040s051.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8704346930559587,
+                    "FN": 64637,
+                    "FP": 4558,
+                    "IoU": 0.7705926232905097,
+                    "TN": 8373664,
+                    "TP": 232430,
+                    "n_pred": 236988,
+                    "n_ref": 297067
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r040s086.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r040s086.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5397489539748954,
+                    "FN": 7892,
+                    "FP": 6188,
+                    "IoU": 0.36962750716332377,
+                    "TN": 8652953,
+                    "TP": 8256,
+                    "n_pred": 14444,
+                    "n_ref": 16148
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r042s010.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r042s010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8419932003159449,
+                    "FN": 2356,
+                    "FP": 2245,
+                    "IoU": 0.7271055753262159,
+                    "TN": 8658429,
+                    "TP": 12259,
+                    "n_pred": 14504,
+                    "n_ref": 14615
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r042s013.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r042s013.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6197916666666666,
+                    "FN": 2185,
+                    "FP": 3509,
+                    "IoU": 0.4490566037735849,
+                    "TN": 8664954,
+                    "TP": 4641,
+                    "n_pred": 8150,
+                    "n_ref": 6826
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r042s021.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r042s021.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7878879015721121,
+                    "FN": 12253,
+                    "FP": 3263,
+                    "IoU": 0.6500124061083166,
+                    "TN": 8630956,
+                    "TP": 28817,
+                    "n_pred": 32080,
+                    "n_ref": 41070
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r042s029.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r042s029.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8261190100052659,
+                    "FN": 705,
+                    "FP": 946,
+                    "IoU": 0.7037502242957114,
+                    "TN": 8669716,
+                    "TP": 3922,
+                    "n_pred": 4868,
+                    "n_ref": 4627
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r046s011.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r046s011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8423876049398723,
+                    "FN": 9856,
+                    "FP": 9594,
+                    "IoU": 0.7276940092682039,
+                    "TN": 8603862,
+                    "TP": 51977,
+                    "n_pred": 61571,
+                    "n_ref": 61833
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r047s001.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r047s001.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.32829113924050635,
+                    "FN": 7779,
+                    "FP": 77125,
+                    "IoU": 0.19638057017377805,
+                    "TN": 8569637,
+                    "TP": 20748,
+                    "n_pred": 97873,
+                    "n_ref": 28527
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r047s010.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r047s010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.667962810638351,
+                    "FN": 2001,
+                    "FP": 24641,
+                    "IoU": 0.5014595808383233,
+                    "TN": 8621849,
+                    "TP": 26798,
+                    "n_pred": 51439,
+                    "n_ref": 28799
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r047s014.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r047s014.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.1761282813914393,
+                    "FN": 3704,
+                    "FP": 2667,
+                    "IoU": 0.09656834940442428,
+                    "TN": 8668237,
+                    "TP": 681,
+                    "n_pred": 3348,
+                    "n_ref": 4385
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r047s036.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r047s036.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7981897109079154,
+                    "FN": 7201,
+                    "FP": 3724,
+                    "IoU": 0.6641561635413464,
+                    "TN": 8642759,
+                    "TP": 21605,
+                    "n_pred": 25329,
+                    "n_ref": 28806
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r047s044.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r047s044.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.23811873047196186,
+                    "FN": 841,
+                    "FP": 3792,
+                    "IoU": 0.13515027067388463,
+                    "TN": 8669932,
+                    "TP": 724,
+                    "n_pred": 4516,
+                    "n_ref": 1565
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r047s048.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r047s048.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6615553121577218,
+                    "FN": 212,
+                    "FP": 1024,
+                    "IoU": 0.49427168576104746,
+                    "TN": 8672845,
+                    "TP": 1208,
+                    "n_pred": 2232,
+                    "n_ref": 1420
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r048s010.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r048s010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8811833724438485,
+                    "FN": 17333,
+                    "FP": 53553,
+                    "IoU": 0.7876030358689171,
+                    "TN": 8341546,
+                    "TP": 262857,
+                    "n_pred": 316410,
+                    "n_ref": 280190
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r048s016.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r048s016.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9031718587362214,
+                    "FN": 3852,
+                    "FP": 18381,
+                    "IoU": 0.823439721099402,
+                    "TN": 8549366,
+                    "TP": 103690,
+                    "n_pred": 122071,
+                    "n_ref": 107542
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r048s018.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r048s018.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6646622375248533,
+                    "FN": 12448,
+                    "FP": 22127,
+                    "IoU": 0.4977484020918071,
+                    "TN": 8606449,
+                    "TP": 34265,
+                    "n_pred": 56392,
+                    "n_ref": 46713
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r048s021.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r048s021.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5910204081632653,
+                    "FN": 118,
+                    "FP": 383,
+                    "IoU": 0.41946697566628044,
+                    "TN": 8674426,
+                    "TP": 362,
+                    "n_pred": 745,
+                    "n_ref": 480
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r048s029.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r048s029.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 444,
+                    "FP": 531,
+                    "IoU": 0.0,
+                    "TN": 8674314,
+                    "TP": 0,
+                    "n_pred": 531,
+                    "n_ref": 444
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r048s031.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r048s031.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5680905140608347,
+                    "FN": 6434,
+                    "FP": 4102,
+                    "IoU": 0.39673632980246204,
+                    "TN": 8657824,
+                    "TP": 6929,
+                    "n_pred": 11031,
+                    "n_ref": 13363
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r048s034.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r048s034.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.747568093385214,
+                    "FN": 376,
+                    "FP": 662,
+                    "IoU": 0.5968932038834951,
+                    "TN": 8672714,
+                    "TP": 1537,
+                    "n_pred": 2199,
+                    "n_ref": 1913
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r048s039.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r048s039.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.14376433233374492,
+                    "FN": 1820,
+                    "FP": 7888,
+                    "IoU": 0.07744939655991637,
+                    "TN": 8664766,
+                    "TP": 815,
+                    "n_pred": 8703,
+                    "n_ref": 2635
+                }
+            },
+            "prediction_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_results\\Dataset201_ATLAS2\\nnUNetTrainer__nnUNetPlans__2d\\fold_4\\validation\\sub-r049s007.nii.gz",
+            "reference_file": "C:\\Users\\super\\Desktop\\Cursor Projects\\FYP\\nnUNet_preprocessed\\Dataset201_ATLAS2\\gt_segmentations\\sub-r049s007.nii.gz"
+        }
+    ]
+}
