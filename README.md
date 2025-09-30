@@ -19,14 +19,14 @@ $env:nnUNet_results= # your path to results folder
 
 All training outputs and summaries are expected under `nnUNet_results` as a convention [[training files in nnUNet_results]].
 
-### Data preprocessing (ATLAS2): run preprocess.py
+### Data preprocessing (ATLAS2): run preprocess.py, then CLI: nnUNetv2_plan_and_preprocess -d DATASET_ID --verify_dataset_integrity (in our case we use 201 for datasetID)
 
 ### Training
 - Plain 2D nnU‑Net v2:
 ```bash
 nnUNetv2_train 201 2d 0 -tr nnUNetTrainer__nnUNetPlans__2d
 ```
-- Custom attention trainers:
+- Custom attention trainers: must be placed in nnunetv2/training/custom to be recognised by nnunet, below are the CLIs to run the training
 ```bash
 # CBAM 
 nnUNetv2_train 201 2d 0 -tr nnUNetTrainer_CBAM
@@ -60,10 +60,10 @@ nnUNetv2_predict \
 
 
 ### Visualization
-- Overlays of predictions on images:
+- Overlays of predictions on images: in Custom scipts: overlay_fold3_grid.py to produce validation prediction overlay
 
 
-### Notes on architecture and configs (2D PlainConvUNet)
+### Notes on architecture and configs (2D PlainConvUNet) - this is typically done by nnunet itself but worth mentioning
 - Patch size: typically 256×224.
 - Encoder/decoder: six stages, two 3×3 convs per stage; InstanceNorm(ε=1e‑5, affine=True) + LeakyReLU(0.01).
 - Downsampling by 3×3 stride‑2 convs in encoder; upsampling by 2×2 stride‑2 transposed convs in decoder.
