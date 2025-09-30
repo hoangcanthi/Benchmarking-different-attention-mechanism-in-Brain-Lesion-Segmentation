@@ -9,6 +9,8 @@ method for deep learning-based biomedical image segmentation. Nature methods, 18
 ### Setup
 - Create a virtual environment and install required libraries in requirements.txt
 - Set nnU‑Net path variables in your shell before training/prediction, for guidance please refer to nnUNet official rep here: https://github.com/MIC-DKFZ/nnUNet
+- Dataset can be downloaded through: https://fcon_1000.projects.nitrc.org/indi/retro/atlas.html - please cite their work accordingly
+Reference: Liew, Sook-Lei, et al. “A Large, Curated, Open-Source Stroke Neuroimaging Dataset to Improve Lesion Segmentation Algorithms.” Scientific Data, vol. 9, no. 1, 16 June 2022, www.nature.com/articles/s41597-022-01401-7, https://doi.org/10.1038/s41597-022-01401-7.
 
 ```bash
 # PowerShell (edit paths)
