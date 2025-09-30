@@ -1,5 +1,5 @@
-## Viet Hoang Pham - City, University of Londn
-## Project title: Benchmarking Different Attention Mechanism in Brain Lesion Segmentation
+## Viet Hoang Pham - City, University of London
+## Project title: Benchmarking Different Attention Mechanism in Brain Lesion Segmentation - Supervised by: Dr Atif Riaz
 
 This repo contains training, evaluation, and visualization utilities built around nnU‑Net v2 for 2D stroke lesion segmentation (ATLAS2).
 
