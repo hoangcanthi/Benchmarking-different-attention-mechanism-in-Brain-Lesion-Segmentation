@@ -28,7 +28,7 @@ All training outputs and summaries are expected under `nnUNet_results` as a conv
 ```bash
 nnUNetv2_train 201 2d 0 -tr nnUNetTrainer__nnUNetPlans__2d
 ```
-- Custom attention trainers: must be placed in nnunetv2/training/custom to be recognised by nnunet, below are the CLIs to run the training
+- Custom attention trainers: must be placed in nnunetv2/training/nnUNetTrainer/custom to be recognised by nnunet, below are the CLIs to run the training
 ```bash
 # CBAM 
 nnUNetv2_train 201 2d 0 -tr nnUNetTrainer_CBAM
